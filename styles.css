@@ -1,0 +1,56 @@
+/* CUERPO */
+body{
+    background-color: black;
+}
+
+/* NOSOTROS */
+.hero {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7; /* Aquí ajustas la transparencia */
+}
+
+.hero-text {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;font-weight: 500;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#subheaderTxt{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+#bodyTxt{
+    color: rgb(255, 255, 255);
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.card{
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#nuestrosValores{
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100px;
+    height: auto;
+}
+
+
+
