@@ -13,14 +13,14 @@ body{
 .hero-img {
     width: 100%;
     height: auto;
-    opacity: 0.7; /* Aquí ajustas la transparencia */
+    opacity: 0.6; /* Aquí ajustas la transparencia */
 }
 
 .hero-text {
     font-family: "Roboto Condensed", sans-serif;
+    /* font-size: 90px !important; */ 
     font-weight: 500;font-weight: 500;
-    font-size: 50px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -36,7 +36,10 @@ body{
 #bodyTxt{
     color: rgb(255, 255, 255);
     font-family: 'Archivo Narrow', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
 }
+
 .card{
     background-color: black;
     margin-left: 50px;
@@ -51,6 +54,11 @@ body{
     width: 100px;
     height: auto;
 }
-
+/* PROFESORES */
+h3#bodyTxt{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 
